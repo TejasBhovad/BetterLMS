@@ -343,3 +343,102 @@ span#specialstring {
 a#marketplace {
   display: none !important;
 }
+div[role="main"] {
+  background-color: rgb(46, 48, 56) !important;
+}
+#yui_3_17_2_2_1693402419867_240 h2,
+a {
+  color: #fff !important;
+}
+.fheader {
+  color: #fff !important;
+}
+input#id_submitbutton,
+#id_cancel {
+  background-color: rgb(46, 158, 227) !important;
+  border: none !important;
+  border-radius: 0.75rem !important;
+  color: white !important;
+  font-size: 12px !important;
+  font-weight: regular !important;
+  transition: 0.3s ease-in-out !important;
+  text-transform: uppercase !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  color: azure !important;
+  margin: 0 !important;
+  padding: 0.3rem 0.8rem !important;
+}
+#fitem_id_imagefile {
+  display: flex;
+  flex-direction: column;
+}
+.nav-tabs > .active > a {
+  background-color: rgb(46, 48, 56) !important;
+  color: #fff !important;
+}
+.nav-tabs > .active {
+  border-style: solid !important;
+  border-width: 0.2rem !important;
+  border: #fff !important;
+}
+.nav-tabs > li > a {
+  background-color: rgb(59, 62, 72) !important;
+  color: #fff !important;
+  /* border: none !important; */
+}
+input[type="submit"] {
+  background-color: rgb(46, 158, 227) !important;
+  border: none !important;
+  border-radius: 0.75rem !important;
+  color: white !important;
+  font-size: 12px !important;
+  font-weight: regular !important;
+  transition: 0.3s ease-in-out !important;
+  text-transform: uppercase !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  color: azure !important;
+  margin: 0 !important;
+  padding: 0.3rem 0.8rem !important;
+}
+input[type="submit"]:hover {
+  background-color: rgb(40, 137, 197) !important;
+  transition: 0.3s ease-in-out !important;
+}
+.profile_part1 {
+  background-color: rgb(46, 48, 56) !important;
+}
+b {
+  color: white !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-style: normal !important;
+}
+input[type="search"] {
+  float: left !important;
+  margin-left: 0.4rem !important;
+}
+::-webkit-scrollbar-track {
+  background-color: rgb(46, 48, 56) !important;
+}
+::-webkit-scrollbar {
+  background-color: rgb(46, 48, 56) !important;
+}
+.forumheaderlist {
+  background-color: rgb(46, 48, 56) !important;
+}
+.formulation {
+  background-color: rgb(46, 48, 56) !important;
+}
+.info {
+  background-color: rgb(46, 48, 56) !important;
+}
+.no,
+.qno {
+  font-size: 0.72rem !important;
+}
+.prompt {
+  text-shadow: none !important;
+  color: gray !important;
+}
+.presentationcontent {
+  height: 20rem !important;
+}

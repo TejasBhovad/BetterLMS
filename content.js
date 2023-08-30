@@ -1,15 +1,5 @@
 // content.js
 
-// Function to apply the custom CSS from storage
-function applyCustomCss() {
-  chrome.storage.sync.get(["customCss"], function (result) {
-    const customCss = result.customCss || "";
-    const style = document.createElement("style");
-    style.innerHTML = customCss;
-    document.head.appendChild(style);
-  });
-}
-
 // Function to modify the page's appearance
 function modifyPage() {
   const targetInput = document.querySelector("input#username");
@@ -53,6 +43,5 @@ function openPDF() {
 }
 
 // Apply the custom CSS and modify the page on page load
-applyCustomCss();
 modifyPage();
 openPDF();

@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "Custom CSS Extension",
+  "name": "BetterLMS",
   "version": "1.0",
-  "description": "Modify website CSS",
-  "permissions": ["activeTab", "storage"],
+  "description": "Provides missing features in LMS like Dark Mode",
+  "permissions": ["activeTab"],
   "icons": {
     "16": "images/icon16.png",
     "48": "images/icon48.png",

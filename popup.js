@@ -1,14 +1,7 @@
-// popup.js
-
 document.addEventListener("DOMContentLoaded", function () {
-  const applyButton = document.getElementById("applyButton");
+  const githubButton = document.getElementById("githubButton");
 
-  applyButton.addEventListener("click", function () {
-    chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
-      chrome.scripting.executeScript({
-        target: { tabId: tabs[0].id },
-        function: modifyPage,
-      });
-    });
+  githubButton.addEventListener("click", function () {
+    window.open("https://github.com/TejasBhovad/BetterLMS", "_blank");
   });
 });
