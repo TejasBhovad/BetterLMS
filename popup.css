@@ -1,0 +1,12 @@
+/* You can customize the styling of your popup here */
+body {
+  font-family: Arial, sans-serif;
+  width: 200px;
+  padding: 20px;
+}
+h1 {
+  color: #333;
+}
+p {
+  color: #666;
+}

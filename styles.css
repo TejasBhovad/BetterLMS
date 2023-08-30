@@ -1,0 +1,345 @@
+/* custom-style.css */
+
+body {
+  color: white !important;
+  background-color: rgb(46, 48, 56) !important;
+  background-image: none !important;
+}
+
+span.userloginicon {
+  background-color: rgb(46, 158, 227) !important;
+  display: none !important;
+  margin-right: 3rem !important;
+}
+.loginbox {
+  float: none !important;
+  left: 0 !important;
+  right: 0 !important;
+  margin: auto !important;
+  position: absolute !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  border-radius: 0.6rem !important;
+}
+input[type="submit"] {
+  background-color: rgb(14, 113, 200) !important;
+  border: none !important;
+  border-radius: 0.75rem !important;
+  color: white !important;
+  font-size: 12px !important;
+  font-weight: regular !important;
+  transition: 0.3s ease-in-out !important;
+  text-transform: uppercase !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  color: azure !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/* hover effect */
+input[type="submit"]:hover {
+  background-color: rgb(40, 137, 197) !important;
+  transition: 0.3s ease-in-out !important;
+}
+.loginpanel {
+  display: flex !important;
+  gap: 1rem !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 100% !important;
+}
+.loginsub {
+  display: flex !important;
+  gap: 1rem !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100%;
+}
+form {
+  display: flex !important;
+  gap: 1rem !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+input[name="username"] {
+  background-color: rgb(46, 48, 56) !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  color: azure !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 30rem !important;
+  border-radius: 0.6 rem !important;
+  /* text-align: center !important; */
+  transition: 0.15s ease-in-out !important;
+  padding-left: 1rem !important;
+  border-color: rgb(11, 105, 105) !important;
+}
+/* chnage border when active */
+input[name="username"]:focus {
+  border-color: rgb(12, 184, 184) !important;
+}
+input[name="password"] {
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  color: azure !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: rgb(46, 48, 56) !important;
+  width: 16rem !important;
+  border-radius: 0.6 rem !important;
+  /* text-align: center !important; */
+  transition: 0.15s ease-in-out !important;
+  padding-left: 1rem !important;
+  border-color: rgb(11, 105, 105) !important;
+}
+/* chnage border when active */
+input[name="password"]:focus {
+  border-color: rgb(12, 184, 184) !important;
+}
+.loginbox .loginform .form-input input[type="text"] {
+  border-radius: 0.6 rem !important;
+}
+.loginsmimage,
+.logo {
+  display: none !important;
+}
+.userpwdicon {
+  display: none !important;
+}
+.loginbox .loginform .form-input input#staticusername {
+  color: rgb(172, 180, 187) !important;
+  background-color: rgba(255, 222, 173, 0) !important;
+  text-align: left !important;
+  padding-left: 1rem !important;
+}
+.loginbox h2 {
+  text-indent: 0 !important;
+  text-align: left !important;
+  padding-left: 1rem !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  color: azure !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.loginerrors {
+  color: rgb(172, 180, 187) !important;
+  background-color: rgba(255, 222, 173, 0) !important;
+  text-align: left !important;
+  padding-left: 1rem !important;
+}
+#page-header {
+  background-color: rgb(46, 48, 56) !important;
+}
+#page {
+  background-color: rgb(46, 48, 56) !important;
+}
+.block_academic_status {
+  background-color: rgb(54, 57, 63) !important;
+}
+.container-fluid .navbar-inner {
+  color: aliceblue !important;
+}
+.navbar-inner {
+  color: aliceblue !important;
+}
+.span6 a {
+  color: aliceblue !important;
+  background-color: rgb(70, 74, 86) !important;
+}
+#academic_status_tabs {
+  background-color: rgb(54, 57, 63) !important;
+}
+#instance-986-header {
+  color: White !important;
+}
+.mycl-hdr {
+  color: White !important;
+}
+#text {
+  color: White !important;
+}
+.dropdown-toggle {
+  color: White !important;
+}
+tbody {
+  background-color: rgb(43, 47, 52) !important;
+}
+#tbl-subject {
+  background-color: rgb(43, 47, 52) !important;
+}
+#tbl-subject td {
+  background-color: rgb(43, 47, 52) !important;
+}
+.topnavbar {
+  color: white !important;
+}
+.ui-widget-header {
+  background-color: rgb(46, 48, 56) !important;
+}
+.ui-tabs-active a {
+  border: none !important;
+}
+h4 {
+  color: white !important;
+}
+.cmn-label {
+  color: white !important;
+}
+label {
+  color: white !important;
+}
+aside#block-region-home-topright,
+#instance-9745-header,
+#instance-594-header,
+#instance-3-header,
+#instance-70611-header,
+#instance-987-header,
+#instance-592-header {
+  background-color: rgb(54, 57, 63) !important;
+  color: aliceblue !important;
+}
+.content {
+  background-color: rgb(43, 47, 52) !important;
+  border-style: solid !important;
+  border-color: rgb(54, 57, 63) !important;
+}
+footer {
+  display: none !important;
+}
+#academic_events_tabs {
+  background-color: rgb(54, 57, 63) !important;
+  color: white !important;
+}
+.ui-tabs-anchor {
+  background-color: rgb(54, 57, 63) !important;
+  color: rgb(137, 144, 150) !important;
+}
+.ui-tabs-active {
+  background-color: rgb(172, 52, 52) !important;
+  color: aliceblue !important;
+}
+p {
+  color: white !important;
+}
+select {
+  background-color: rgb(46, 48, 56) !important;
+  color: white !important;
+}
+input {
+  background-color: rgb(46, 48, 56) !important;
+  color: white !important;
+}
+textarea {
+  background-color: rgb(46, 48, 56) !important;
+  color: white !important;
+}
+.section {
+  background-color: transparent !important;
+}
+.clearfix {
+  background-color: rgb(46, 48, 56) !important;
+}
+span.instancename {
+  color: white !important;
+}
+.section li.activity {
+  border-bottom: 1px solid #626262 !important;
+}
+p.circular_value {
+  color: #000 !important;
+  text-align: center !important;
+  font-style: normal !important;
+}
+/* div {
+  background-color: rgb(46, 48, 56) !important;
+} */
+#prog-bar-cont {
+  background-color: rgb(54, 57, 63) !important;
+  border-radius: 0rem !important;
+}
+#id_submitbutton {
+  padding: 0.2rem 0.4rem !important;
+}
+th {
+  background-color: rgb(34, 36, 42) !important;
+  color: aliceblue !important;
+}
+td {
+  background-color: rgb(48, 50, 58) !important;
+}
+td a {
+  color: rgb(62, 158, 242) !important;
+}
+#local_timetable_studentlayout {
+  border: none !important;
+}
+.wrapper,
+.ui-tabs-panel {
+  background-color: rgb(46, 48, 56) !important;
+  color: white !important;
+}
+#page-header {
+  min-height: 0 !important;
+}
+::-webkit-scrollbar {
+  background-color: #fff;
+}
+::-webkit-scrollbar-corner {
+  background-color: #c9243f;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #c9243f;
+  border: 0px;
+}
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: #fff;
+}
+.launchbutton {
+  color: white !important;
+}
+.block_course_progress {
+  background-color: rgb(54, 57, 63) !important;
+}
+.the_toggle {
+  background-color: rgb(78, 82, 91) !important;
+  color: white !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-style: normal !important;
+}
+.the_toggle h3 {
+  color: white !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-style: normal !important;
+}
+h1.coursetitle {
+  color: rgb(176, 42, 42) !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-style: normal !important;
+}
+#instance-50217-header {
+  color: aliceblue !important;
+  text-shadow: none !important;
+}
+span#specialstring {
+  margin-left: 0 !important;
+  padding-left: 0.2rem !important;
+}
+.block {
+  border: none !important;
+}
+#dock {
+  background-color: #202127 !important;
+}
+.sectionhead {
+  border-bottom: none !important;
+}
+/* #page a {
+  color: rgb(62, 158, 242) !important;
+} */
+a#marketplace {
+  display: none !important;
+}
