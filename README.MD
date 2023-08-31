@@ -2,6 +2,8 @@
 
 chrome extension that makes LMS experience better
 
+![Cover Image](images/cover.png)
+
 ## ⚒️ Features
 
 - Dark mode for the site
@@ -15,5 +17,10 @@ This chrome extension is currently in development
 1. Clone this repo to any folder on your device
 2. Open Chrome, Settings>Extensions or go to `chrome://extensions`
 3. enable developer mode
-4. click on Load Unpacked and select your Unzip folder.[select the directory which contains the `manifest.json` file]
+4. click on Load Unpacked and select your Unzipped folder.[select the directory which contains the `manifest.json` file]
 5. Extension will be visible in extensions tab
+
+![Dark Mode Image](images/darkmode.png)
+![PDFs](images/flexpaper.png)
+
+Working on Getting this to Chrome web store...
