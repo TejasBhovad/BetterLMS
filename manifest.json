@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "BetterLMS",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Provides missing features in LMS like Dark Mode",
   "permissions": ["activeTab"],
   "icons": {
@@ -11,6 +11,7 @@
   },
   "action": {
     "default_popup": "popup.html",
+    "default_title": "BetterLMS",
     "default_icon": {
       "16": "images/icon16.png",
       "48": "images/icon48.png",

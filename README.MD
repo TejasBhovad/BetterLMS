@@ -23,4 +23,15 @@ This chrome extension is currently in development
 ![Dark Mode Image](images/darkmode.png)
 ![PDFs](images/flexpaper.png)
 
-Working on Getting this to Chrome web store...
+## Plans
+- upload on chrome webstore
+- uploaded to mozilla [review pending]
+- uploaded to opera store [review pending]
+
+<!-- Add following script to JSON to compile to Mozilla add-on -->
+<!--   // "browser_specific_settings": {
+  //   "gecko": {
+  //     "id": "betterlms@tejasbhovad.com",
+  //     "strict_min_version": "42.0"
+  //   }
+  // }, -->
